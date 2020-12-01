@@ -264,7 +264,7 @@ module.exports = {
     // palette. If a node's category is not in the list, the category will get
     // added to the end of the palette.
     // If not set, the following default order is used:
-    //paletteCategories: ['subflows', 'common', 'function', 'network', 'sequence', 'parser', 'storage'],
+    paletteCategories: ['subflows', 'common', 'spreadsheet', 'function', 'network', 'sequence', 'parser', 'storage'],
 
     // Configure the logging output
     logging: {
@@ -297,6 +297,21 @@ module.exports = {
             title: "Encanto² Business Intelligence",
             image: "C:/git/node-red/customConfig/E2_logo_sml.png", // or null to remove image
             url: "http://nodered.org" // optional url to make the header text/image a link to this url
+        },
+        menu: { // Hide unwanted menu items by id. see packages/node_modules/@node-red/editor-client/src/js/red.js:loadEditor for complete list
+            "menu-item-import-library": false,
+            "menu-item-export-library": false,
+            "menu-item-keyboard-shortcuts": false,
+            "menu-item-help": {
+                label: "Alternative Help Link Text",
+                url: "http://example.com"
+            }
+        },
+        palette: {
+            editable: false, // Disable the palette manager
+            catalogues: [   // Alternative palette manager catalogues
+                'https://catalogue.nodered.org/catalogue.json'
+            ]
         },
         projects: {
             // To enable the Projects feature, set this value to true
