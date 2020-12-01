@@ -288,6 +288,16 @@ module.exports = {
 
     // Customising the editor
     editorTheme: {
+        page: {
+            title: "Encanto² Business Intelligence",
+            favicon: "C:/git/node-red/customConfig/favicon.ico",
+            css: "C:/Users/cwill/.node-red/node_modules/@node-red-contrib-themes/dark/theme.css"
+        },
+        header: {
+            title: "Encanto² Business Intelligence",
+            image: "C:/git/node-red/customConfig/E2_logo_sml.png", // or null to remove image
+            url: "http://nodered.org" // optional url to make the header text/image a link to this url
+        },
         projects: {
             // To enable the Projects feature, set this value to true
             enabled: false
