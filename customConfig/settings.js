@@ -264,7 +264,7 @@ module.exports = {
     // palette. If a node's category is not in the list, the category will get
     // added to the end of the palette.
     // If not set, the following default order is used:
-    paletteCategories: ['subflows', 'common', 'spreadsheet', 'function', 'network', 'sequence', 'parser', 'storage'],
+    paletteCategories: ['subflows', 'common', 'spreadsheet', 'function', 'sequence', 'parser', 'storage'],
 
     // Configure the logging output
     logging: {
@@ -296,7 +296,7 @@ module.exports = {
         header: {
             title: "Encanto² Business Intelligence",
             image: "C:/git/node-red/customConfig/E2_logo_sml.png", // or null to remove image
-            url: "http://nodered.org" // optional url to make the header text/image a link to this url
+            url: "https://www.linkedin.com/company/encanto-squared/" // optional url to make the header text/image a link to this url
         },
         menu: { // Hide unwanted menu items by id. see packages/node_modules/@node-red/editor-client/src/js/red.js:loadEditor for complete list
             "menu-item-import-library": false,
