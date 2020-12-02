@@ -299,8 +299,8 @@ module.exports = {
             url: "https://www.linkedin.com/company/encanto-squared/" // optional url to make the header text/image a link to this url
         },
         menu: { // Hide unwanted menu items by id. see packages/node_modules/@node-red/editor-client/src/js/red.js:loadEditor for complete list
-            "menu-item-import-library": false,
-            "menu-item-export-library": false,
+            "menu-item-import-library": true,
+            "menu-item-export-library": true,
             "menu-item-keyboard-shortcuts": false,
             "menu-item-help": {
                 label: "Alternative Help Link Text",
