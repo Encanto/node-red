@@ -65,6 +65,7 @@
         "node-red-contrib-spreadsheet-in": "^0.6.0",
         "node-red-node-rbe": "^0.2.9",
         "node-red-node-tail": "^0.1.0",
+        "nodered-comp": "git+https://db22b479cab5d9c7b8e03d07e786755f5ec3b1c0:x-oauth-basic@github.com/Encanto/nodered-comp.git",
         "nopt": "5.0.0",
         "oauth2orize": "1.11.0",
         "on-headers": "1.0.2",
